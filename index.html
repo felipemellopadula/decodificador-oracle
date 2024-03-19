@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>Codificador de Texto</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header__box">
+            <header>
+                <img src="./imgs/logo_alurac.png" alt="Logo Alura">
+                <h2 class="title">Codificador de Texto</h2>
+            </header>
+        </div>
+        <main>
+            <div class="box">
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="DIGITE SEU TEXTO AQUI..."></textarea>
+                <div class="output">
+                    <h3>Sua mensagem aparecerá aqui</h3>
+                </div>
+            </div>
+            <div class="box__btn">
+                <button onclick="criptografar()" class="btn">Criptografar</button>
+                <button onclick="descriptografar()" class="btn">Descriptografar</button>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

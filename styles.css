@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Amatic+SC:wght@400;700&family=Calistoga&family=Comfortaa:wght@300..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100dvw;
+}
+
+.header__box {
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+body {
+    background-image: url("./imgs/—Pngtree—matrix\ code\ abstract\ programming\ background_1593627.png");
+}
+
+header {
+    max-width: 60rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    height: 15dvh;
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #124076;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.title {
+    font-size: clamp(1.5rem, 0.517rem + 2.759vw, 3rem);
+}
+
+
+header img {
+    width: 40px
+}
+
+main {
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 4rem;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+    height: 60dvh;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+}
+
+.output {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    opacity: 95%;
+
+}
+
+
+textarea {
+    border-radius: 1rem;
+    padding: 1rem;
+    resize: none;
+    width: 50%;
+    height: 40dvh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    opacity: 95%;
+}
+
+
+.box__btn {
+    display: flex;
+    gap: 3rem;
+}
+
+.btn {
+    background-color: #124076;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    width: 15rem;
+    height: 5dvh;
+    font-family: "Comfortaa", sans-serif;
+    font-opti7cal-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #051a33;
+    transition: 0.2s;
+
+}
+
+@media (max-width: 780px) {
+    header {
+        max-width: 48rem;
+        display: flex;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        height: 15dvh;
+        margin: 0 auto;
+        background-color: #fff;
+        font-family: "Amaranth", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #124076;
+    }
+
+    main {
+        gap: 2rem;
+    }
+
+
+    .box {
+        flex-direction: column;
+        justify-content: center;
+
+        textarea {
+            width: 100%;
+        }
+    }
+
+    .output {
+        width: 100%;
+    }
+
+    .box__btn {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
